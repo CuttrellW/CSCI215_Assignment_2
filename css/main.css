@@ -1,0 +1,15 @@
+#container {
+    margin: auto;
+}
+#body {
+    margin: auto;
+}
+
+#container{
+    text-align: center;
+}
+
+#output{
+    width: 60%;
+    text-align: center;
+}
