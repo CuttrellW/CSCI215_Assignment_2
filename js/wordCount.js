@@ -36,8 +36,11 @@ function wordCount(inst, textArray) {
 
 
 function update(output){
-    document.getElementsByName("outTxt")[0].value = "Check console";
-    console.log(output)
+    /*document.getElementsByName("outTxt")[0].value = "check console";*/
+    console.log(output);
+    var pNode = document.getElementById("output");
+    var pTextNode = document.createTextNode(output);
+    pNode.appendChild(pTextNode);
 
 }
 

@@ -55,6 +55,7 @@ function translate(str, array, strUpper){
 }
 
 function update(output, strUpper){
+
     document.getElementsByName("outTxt")[0].value = output + " " + strUpper;
 
 }
