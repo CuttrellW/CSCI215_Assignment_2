@@ -26,7 +26,6 @@ function wordCount(inst, textArray) {
         }
     }
 
-    console.log(inst);
 
     /*The object 'inst' looks good in the console, but i cannot get it to print in the output
     box. "toString" doesn't seem to work either*/
@@ -37,7 +36,7 @@ function wordCount(inst, textArray) {
 
 
 function update(output){
-    document.getElementsByName("outTxt")[0] = output;
+    document.getElementsByName("outTxt")[0].value = "Check console";
     console.log(output)
 
 }
